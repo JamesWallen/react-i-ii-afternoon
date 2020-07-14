@@ -1,0 +1,148 @@
+.App {
+  text-align: center;
+  font-size: 25px;
+}
+
+header {
+  width: 100vw;
+  height: 10vh;
+  background-color: #34a5da;
+  display: flex;
+  align-items: center;
+}
+
+h1 {
+  font-size: 30px;
+  font-weight: bold;
+  margin-left: 5%;
+}
+
+.main-section {
+  width: 100vw;
+  height: 90vh;
+  background-color: #222222;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.display-info {
+  width: 80%;
+  height: 70%;
+  background-color: #ebebeb;
+  display: flex;
+  text-align: left;
+}
+
+.display {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  margin: 5% 10%;
+}
+
+.numbers {
+  position: absolute;
+  font-weight: bold;
+  right: 12%;
+  top: 23%;
+  font-size: 40px;
+}
+
+h2 {
+  font-size: 60px;
+  font-weight: bold;
+  border-bottom: 3px solid #34a5da;
+  padding-bottom: 10px;
+}
+
+.personal-info {
+  margin-top: 2%;
+  height: 25%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.personal-info p {
+  font-weight: bold;
+}
+
+.personal-info p span {
+  font-weight: normal;
+}
+
+.movies {
+  margin-top: 3%;
+}
+
+.movies ol {
+  font-weight: bold;
+  list-style-type: decimal;
+  line-height: 2;
+}
+
+.movies ol li {
+  font-weight: normal;
+  margin-left: 7%; 
+}
+
+.display-button {
+  width: 80%;
+  height: 4%;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 10px;
+}
+
+button {
+  border: none;
+  background: none;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  letter-spacing: 1px;
+  border-radius: 5px;
+  transition: 1s;
+}
+
+.display-button {
+  width: 15%;
+}
+
+#next-button {
+  text-align: right;
+}
+
+#prev-button {
+  text-align: left;
+}
+
+button:hover {
+  background: white;
+  color: #222222;
+  border-radius: 50px;
+}
+
+button:active {
+  transition: .5s;
+  background-color: rgb(87, 87, 87);
+  color: white;
+}
+
+.special-button {
+  background-color: #34a5da;
+  border-radius: 10px;
+  transition: 1s;
+}
+
+.special-button:hover {
+  background: #25769c;
+  color: white;
+}
+
+.special-button:active {
+  background: #15445a;
+}
